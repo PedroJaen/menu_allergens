@@ -1,0 +1,17 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/menu-allergens/(.*)": "<rootDir>/../libs/menu-allergens/src/$1",
+    "@app/menu-allergens": "<rootDir>/../libs/menu-allergens/src"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "menu-allergens": {
+      "type": "library",
+      "root": "libs/menu-allergens",
+      "entryFile": "index",
+      "sourceRoot": "libs/menu-allergens/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/menu-allergens/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
